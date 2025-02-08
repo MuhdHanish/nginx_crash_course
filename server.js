@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const appName = 'Node Server';
+const appName = process.env.APP_NAME || 'Node Server';
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
