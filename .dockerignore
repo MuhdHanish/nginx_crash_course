@@ -1,0 +1,11 @@
+# Ignore unnecessary files
+.DS_Store
+node_modules/
+*.log
+.env*
+!.env.example
+.history
+
+# Allow built files if needed
+!dist/
+!build/
