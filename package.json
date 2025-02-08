@@ -1,0 +1,25 @@
+{
+  "name": "nginx_crash_course",
+  "version": "1.0.0",
+  "description": "A Node.js application serving a static HTML file, used for load balancing with NGINX.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhdHanish/nginx_crash_course.git"
+  },
+  "keywords": [],
+  "author": "MuhdHanish",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MuhdHanish/nginx_crash_course/issues"
+  },
+  "homepage": "https://github.com/MuhdHanish/nginx_crash_course#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}
